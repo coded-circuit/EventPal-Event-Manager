@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# 🌟 EventPal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**EventPal** is a modern React-based event manager to explore, create, and bookmark events. It features smart filters, dark mode, and calendar sync — all in a clean, responsive UI.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
+- 🔍 Event Dashboard: View all upcoming events with search and filter options (by type, category, etc.)
+- 📝 Create Event: Add your own event with title, date/time, location, and more.
+- 📌 Bookmark Events: Toggle between Attend/Cancel, and see your saved (cancelled/bookmarked) events in the My Events tab.
+- 📅 Calendar Sync: View all your events visually in the calendar tab.
+- 🌙 Dark Mode: Seamlessly switch between light and dark themes.
+- 📱 Responsive Design: Clean UI for desktop and mobile.
+---
+## 🛠 Tech Stack
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **React** (with React Router)
+- **LocalStorage** for event persistence
+- **CSS Flex/Grid** for layout
+- **Responsive Design**
+- **Date handling** using `toLocaleDateString`
+---
+## 📸 Screenshots
+![Screenshot 2025-07-03 173559](https://github.com/user-attachments/assets/d463770b-22e9-416d-9db7-6f176b8c078c)
+![Screenshot 2025-07-03 173613](https://github.com/user-attachments/assets/018cb4fe-12a9-4902-8bf5-5cb83da6d5d4)
+![Screenshot 2025-07-03 173627](https://github.com/user-attachments/assets/9719a16a-f454-41f6-9547-6eabbe974f9d)
+![Screenshot 2025-07-03 173646](https://github.com/user-attachments/assets/b416621b-f899-4f63-a63e-d8fab2a1bf45)
+![Screenshot 2025-07-03 173659](https://github.com/user-attachments/assets/b09a0946-173e-4605-9b9a-a6fc1ba4e3a5)
