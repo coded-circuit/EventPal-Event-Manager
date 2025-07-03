@@ -1,0 +1,85 @@
+.create-event{
+    text-align: center;
+    background-color: var(--bg-primary);
+    padding: 20px;
+}
+.form-details{
+    background-color: var(--bg-secondary);
+    width:40%;
+    margin-left: 30%;
+    margin-top: 2rem;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 15px 0 var(--border-color);
+}
+.form-details h2 {
+    font-size: 40px;
+    font-weight: 550;
+    line-height: 4rem;
+    color: var(--text-primary);
+    text-align: center;
+}
+.form-details p{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-secondary);
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    text-align: left;
+    gap: 8px;
+    padding-left: 16px;
+    padding-right: 30px;
+}
+form label{
+    color: var(--text-secondary);
+}
+form input{
+    height: 20px;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+}
+form textarea{
+    border-radius: 8px;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+form div{
+    display: flex;
+    flex-direction: row;
+}
+form select {
+    height: 40px;
+    width: 90%;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+form div div {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+form button{
+    width: 20%;
+    padding: 10px;
+    font-size: 14px;
+    margin-left: 40%;
+    margin-top: 2rem;
+    background-color: var(--accent);
+    border-radius: 8px;
+    color: var(--text-hover);
+    border:none;
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+}
+/* Light Theme */
+ :root {
+        --bg-primary: #f8f7f4; --bg-secondary: #ffffff; --text-primary: #1a1a1a;
+        --text-secondary: #5c5c5c; --accent: #2c7a7b; --accent-hover: #286a6b; --border-color: #e2e8f0; --text-hover : white;--back:#a0a4ac;
+        }
+/* Dark Theme */
+        [data-theme="dark"] {
+            --bg-primary: #1a202c; --bg-secondary: #2d3748; --text-primary: #f7fafc;
+            --text-secondary: #a0aec0; --accent: #4fd1c5; --accent-hover: #38b2ac; --border-color: #4a5568;--text-hover : white;--back:#2d3748;
+        }

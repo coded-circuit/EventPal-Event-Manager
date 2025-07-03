@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Light Theme */
+ :root {
+        --bg-primary: #f8f7f4; --bg-secondary: #ffffff; --text-primary: #1a1a1a;
+        --text-secondary: #5c5c5c; --accent: #2c7a7b; --accent-hover: #286a6b; --border-color: #e2e8f0;
+        }
+/* Dark Theme */
+        [data-theme="dark"] {
+            --bg-primary: #1a202c; --bg-secondary: #2d3748; --text-primary: #f7fafc;
+            --text-secondary: #a0aec0; --accent: #4fd1c5; --accent-hover: #38b2ac; --border-color: #4a5568;
+        }
+body {
+  margin: 0;
+  /* padding: 20px; */
+  font-family: "Poppins";
+  background: var(--bg-secondary);
+
+}        
+header{
+    display: flex;
+    /* border: 2px solid black; */
+    padding: 14px;
+    box-shadow: 0 2px 2px 0 var(--border-color);
+}
+header .eventpal {
+    font-size: 25px;
+    margin-left: 40px;
+    color:  var(--accent);
+    font-weight: 600;
+}
+header nav {
+  display: flex;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 16px;
+  margin-top: 1rem;
+  cursor: pointer;
+
+}
+header nav a{
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+header nav a.active{
+    color: var(--accent);
+}
+header nav a:hover{
+    color: var(--accent-hover);
+}
+.mode button{
+    margin-right: 7rem;
+    border-radius: 40%;
+    /* border: none; */
+    border: 3px solid var(--accent);
+    cursor: pointer;
+}

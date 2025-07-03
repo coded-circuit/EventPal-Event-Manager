@@ -1,0 +1,65 @@
+{
+    "events":[
+        {
+            "id":1,
+            "eventName":"React Workshop",
+            "date_time":"2025-07-03T10:15:00",
+            "category":"Tech",
+            "desc":"Deep dive into React Hooks and state management.",
+            "eventType":"online",
+            "location":"LH-3",
+            "status":"Attend"
+        },
+        {
+            "id":2,
+            "eventName":"Digital Art Fair",
+            "date_time":"2025-07-08T18:45:00",
+            "desc":"Explore digital creations from artists around the world.",
+            "category":"Culture",
+            "eventType":"offline",
+            "location":"LH-1",
+            "status":"Attend"
+        },
+        {
+            "id":3,
+            "eventName":"Advance CSS Webinar",
+            "date_time":"2025-07-14T09:30:00",
+            "desc":"Master Grid, Flexbox, and modern CSS techniques.",
+            "category":"Tech",
+            "eventType":"online",
+            "location":"CH-1",
+            "status":"Attend"
+        },
+        {
+            "id":4,
+            "eventName":"Dance Workshop",
+            "date_time":"2025-07-19T16:00:00",
+            "desc":"Hip-Hops fusion with cultural dance. Don't miss.",
+            "category":"Culture",
+            "eventType":"offline",
+            "location":"New Sac",
+            "status":"Cancel"
+        },
+        {
+            "id":5,
+            "eventName":"Financial Planning 101",
+            "date_time":"2025-07-23T11:20:00",
+            "desc":"Learn the basics of managing your finances.",
+            "category":"Acads",
+            "eventType":"offline",
+            "location":"LH-2",
+            "status":"Cancel"
+        },
+        {
+            "id":6,
+            "eventName":"Cricket Practice",
+            "date_time":"2025-07-30T20:10:00",
+            "desc":"Spot bowling combined with fielding session",
+            "category":"Sports",
+            "eventType":"offline",
+            "location":"Ground-1",
+            "status":"Attend"
+        }
+        
+    ]
+}

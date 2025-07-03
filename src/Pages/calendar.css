@@ -1,0 +1,26 @@
+.calendar{
+    text-align: center;
+    background-color: var(--bg-primary);
+    padding: 20px;
+}
+.calendar h1 {
+    color: var(--text-primary);
+    font-size: 60px;
+}
+.calendar h4 {
+    color: var(--text-secondary);
+    font-weight: 400;
+    font-size: 20px;
+}
+.event-calendar{
+    display: flex;
+    background-color: var(--bg-secondary);
+    width: 80%;
+    margin-top: 3rem;
+    margin-left: 10%;
+    height: 10%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px 0 #4a5568;
+   
+}
